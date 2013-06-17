@@ -1,0 +1,4 @@
+escape ``
+hardstatus alwayslastline
+hardstatus string '%{= wK}%-Lw%{= KG}%50>%n%f* %t%{= wK}%+Lw%< %{= kG}%-=%D %d %M %Y %c:%s%{-}'
+utf8 on

@@ -1,7 +1,10 @@
 [user]
-	email = tg@timotheegroleau.com
+	email = timothee.groleau@gmail.com
 	name = Timothee Groleau
 [color]
 	ui = true
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --branches
+    lg = log --graph --pretty=oneline --abbrev-commit --all --decorate
+    chekcout = checkout
+[push]
+	default = simple

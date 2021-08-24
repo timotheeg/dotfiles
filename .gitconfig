@@ -4,7 +4,12 @@
 [color]
 	ui = true
 [alias]
-    lg = log --graph --pretty=oneline --abbrev-commit --all --decorate
-    chekcout = checkout
+	lg = log --graph --pretty=oneline --abbrev-commit --all --decorate
+
+	lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(auto)%d%C(reset) %C(white)%s%C(reset) %C(yellow)- %an%C(reset) %C(dim white)(%ar)%C(reset) ' --all
+
+	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset)%C(auto)%d%C(reset) - %C(white)%s%C(reset) %C(yellow)- %an%C(reset)%n''          %C(dim cyan)%ar%C(reset) %C(dim white)(%aD)%C(reset)' --all
+
+	chekcout = checkout
 [push]
 	default = simple
